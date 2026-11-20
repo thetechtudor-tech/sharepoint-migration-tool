@@ -1,0 +1,13 @@
+# Per-user settings, sign-in tokens and run output: never commit these
+config.json
+token_cache.json
+sftp_known_hosts
+migration_log*.csv
+uploads/
+
+# Build output
+build/
+dist/
+*.spec
+__pycache__/
+*.pyc
